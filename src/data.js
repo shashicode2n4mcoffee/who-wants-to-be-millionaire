@@ -1,132 +1,129 @@
 export const data = [
   {
     id: 1,
-    question: 'Why so JavaScript and Java have similar name?',
+    question: 'Who is the prime minister of India',
     answers: [
       {
-        text: 'JavaScript is a stripped-down version of Java',
+        text: 'Putin',
         correct: false,
       },
       {
-        text: 'JavaScript’s syntax is loosely based on Java’s',
+        text: 'Donald Trump',
+        correct: false,
+      },
+      {
+        text: 'Shashikumar',
+        correct: false,
+      },
+      {
+        text: 'Narendra Modi',
         correct: true,
-      },
-      {
-        text: 'They both originated on the island of Java',
-        correct: false,
-      },
-      {
-        text: 'None of the above',
-        correct: false,
       },
     ],
   },
   {
     id: 2,
-    question:
-      'When a user views a page containing a JavaScript program, which machine actually executes the script?',
+    question: 'Which is the smallest state in India?',
     answers: [
       {
-        text: 'The User’s machine running a Web browser',
+        text: 'Uttarakhand',
+        correct: false,
+      },
+      {
+        text: 'Goa',
         correct: true,
       },
       {
-        text: 'The Web server',
+        text: 'Manipur',
         correct: false,
       },
       {
-        text: 'A central machine deep within Netscape’s corporate offices',
-        correct: false,
-      },
-      {
-        text: 'None of the above',
+        text: 'Assam',
         correct: false,
       },
     ],
   },
   {
     id: 3,
-    question: '______ JavaScript is also called client-side JavaScript',
+    question: 'Who is the first citizen of India?',
     answers: [
       {
-        text: 'Microsoft',
-        correct: false,
-      },
-      {
-        text: 'Navigator',
-        correct: false,
-      },
-      {
-        text: 'LiveWire',
+        text: 'President',
         correct: true,
       },
       {
-        text: 'Native',
+        text: 'Prime Minister',
+        correct: false,
+      },
+      {
+        text: 'Home Minister',
+        correct: false,
+      },
+      {
+        text: 'Chief Minister',
         correct: false,
       },
     ],
   },
   {
     id: 4,
-    question: 'What are variables used for in JavaScript Programs?',
+    question: 'Who is the composer of the Indian national song?',
     answers: [
       {
-        text: 'Storing numbers, dates, or other values',
+        text: ' Bankim Chandra Chatterjee',
         correct: true,
       },
       {
-        text: 'Varying randomly',
+        text: 'Jibanananda Das',
         correct: false,
       },
       {
-        text: 'Causing high-school algebra flashbacks',
+        text: ' Chattopadhyay Sharadchan',
         correct: false,
       },
       {
-        text: 'None of the above',
+        text: 'Manik Bandopadhyay',
         correct: false,
       },
     ],
   },
   {
     id: 5,
-    question:
-      '_____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation',
+    question: 'Which is national language of India?',
     answers: [
       {
-        text: 'Client-side',
+        text: 'Kannada',
+        correct: false,
+      },
+      {
+        text: 'Sanskrit',
+        correct: false,
+      },
+      {
+        text: 'Hindi',
+        correct: false,
+      },
+      {
+        text: 'None of the above',
         correct: true,
-      },
-      {
-        text: 'Server-side',
-        correct: false,
-      },
-      {
-        text: 'Local',
-        correct: false,
-      },
-      {
-        text: 'Native',
-        correct: false,
       },
     ],
   },
   {
     id: 6,
-    question:
-      'What should appear at the very end of your JavaScript? The <script LANGUAGE=”JavaScript”>tag',
+    question: 'What is the national song of India?',
     answers: [
       {
-        text: 'The </script>',
+        text: ' Jan Gan Man',
+        correct: false,
+      },
+      {
+        text: ' Sare Jahan Se Acha',
+        correct: false,
+      },
+      {
+        text: 'Vande Mataram',
         correct: true,
-      },
-      {
-        text: 'The <script>',
-        correct: false,
-      },
-      {
-        text: 'The END statement',
-        correct: false,
       },
       {
         text: 'None of the above',
@@ -136,42 +133,40 @@ export const data = [
   },
   {
     id: 7,
-    question:
-      'Which of the following can’t be done with client-side JavaScript?',
+    question: 'What is the name of the longest river on the earth?',
     answers: [
       {
-        text: 'Validating a form',
+        text: 'Amazon River',
         correct: false,
       },
       {
-        text: 'Sending a form’s contents by email',
+        text: 'Angara River',
         correct: false,
       },
       {
-        text: 'Storing the form’s contents to a database file on the server',
+        text: 'The Nile',
         correct: true,
       },
       {
-        text: 'None of the above',
+        text: 'Indus',
         correct: false,
       },
     ],
   },
   {
     id: 8,
-    question:
-      'Which of the following are capabilities of functions in JavaScript?',
+    question: 'Which river is also called Ganga of South?',
     answers: [
       {
-        text: 'Return a value',
+        text: 'Godavari',
         correct: false,
       },
       {
-        text: 'Accept parameters and Return a value',
+        text: 'Krishna',
         correct: false,
       },
       {
-        text: 'Accept parameters',
+        text: 'Cauvery',
         correct: true,
       },
       {
@@ -182,152 +177,152 @@ export const data = [
   },
   {
     id: 9,
-    question:
-      'Which of the following are capabilities of functions in JavaScript?',
+    question: 'Which crop is sown on the largest area in India?',
     answers: [
       {
-        text: 'Return a value',
+        text: 'Sugarcane',
         correct: false,
       },
       {
-        text: 'Accept parameters and Return a value',
+        text: 'Wheat',
         correct: false,
       },
       {
-        text: 'Accept parameters',
+        text: 'Rice',
         correct: true,
       },
       {
-        text: 'None of the above',
+        text: 'Maize',
         correct: false,
       },
     ],
   },
   {
     id: 10,
-    question: 'Which of the following is not a valid JavaScript variable name?',
+    question: 'Which is the largest coffee producing state of India?',
     answers: [
       {
-        text: '2names',
+        text: 'Karnataka',
         correct: true,
       },
       {
-        text: '_first_and_last_names',
+        text: 'Kerala',
         correct: false,
       },
       {
-        text: 'FirstAndLast',
+        text: 'Tamil Nadu',
         correct: false,
       },
       {
-        text: 'None of the above',
+        text: 'Arunachal Pradesh',
         correct: false,
       },
     ],
   },
   {
     id: 11,
-    question: 'How does JavaScript store dates in a date object?',
+    question: ' Which state has the largest population?',
     answers: [
       {
-        text: 'The number of milliseconds since January 1st, 1970',
+        text: 'Uttar Pradesh',
         correct: true,
       },
       {
-        text: 'The number of days since January 1st, 1900',
+        text: 'Maharastra',
         correct: false,
       },
       {
-        text: 'The number of seconds since Netscape’s public stock offering',
+        text: 'Bihar',
         correct: false,
       },
       {
-        text: 'None of the above',
+        text: 'Andra Pradesh',
         correct: false,
       },
     ],
   },
   {
     id: 12,
-    question:
-      'Which of the following attribute can hold the JavaScript version?',
+    question: 'Where is ‘Dudhsagar Waterfall’ in India?',
     answers: [
       {
-        text: 'LANGUAGE',
+        text: 'At the border of the Indian state of Goa and Karnataka',
         correct: true,
       },
       {
-        text: 'SCRIPT',
+        text: 'In Karnataka',
         correct: false,
       },
       {
-        text: 'VERSION',
+        text: 'In Gujarat',
         correct: false,
       },
       {
-        text: 'None of the above',
+        text: 'In Rajasthan',
         correct: false,
       },
     ],
   },
   {
     id: 13,
-    question: 'What is the correct JavaScript syntax to write “Hello World”?',
+    question:
+      'Which space agency sends 104 satellites in a single mission in 2017?',
     answers: [
       {
-        text: 'System.out.println(“Hello World”)',
+        text: 'NASA',
         correct: false,
       },
       {
-        text: 'println (“Hello World”)',
+        text: 'Russian Agency”)',
         correct: false,
       },
       {
-        text: 'document.write(“Hello World”)',
+        text: 'ISRO”)',
         correct: true,
       },
       {
-        text: 'response.write(“Hello World”)',
+        text: 'China space Agency”)',
         correct: false,
       },
     ],
   },
   {
     id: 14,
-    question: 'Inside which HTML element do we put the JavaScript?',
+    question:
+      'Which of the following personalities is known as the father of economics?',
     answers: [
       {
-        text: ' <js>',
+        text: ' J.M. Keynes',
         correct: false,
       },
       {
-        text: '<scripting>',
+        text: 'Abraham Maslow',
         correct: false,
       },
       {
-        text: '<script>',
+        text: 'J.K. Galbraith',
+        correct: false,
+      },
+      {
+        text: 'Adam Smith',
         correct: true,
-      },
-      {
-        text: '<javascript>',
-        correct: false,
       },
     ],
   },
   {
     id: 15,
-    question: 'Which types of image maps can be used with JavaScript?',
+    question: 'Who is known as “The Saint of Gutters”?',
     answers: [
       {
-        text: ' Server-side image maps',
+        text: ' Baba Amte',
         correct: false,
       },
       {
-        text: 'Client-side image maps',
+        text: 'Mother Teresa',
         correct: true,
       },
       {
-        text: 'Server-side image maps and Client-side image maps',
+        text: 'Anna Hazare',
         correct: false,
       },
       {
@@ -339,23 +334,23 @@ export const data = [
   {
     id: 16,
     question:
-      'Which of the following navigator object properties is the same in both Netscape and IE?',
+      'Which of the following personalities gave ‘The Laws of Heredity’?',
     answers: [
       {
-        text: 'navigator.appCodeName',
+        text: 'William Harvey',
+        correct: false,
+      },
+      {
+        text: 'Robert Hook',
+        correct: false,
+      },
+      {
+        text: 'Charles Darwin',
+        correct: false,
+      },
+      {
+        text: 'G.J. Mendel',
         correct: true,
-      },
-      {
-        text: 'navigator.appName',
-        correct: false,
-      },
-      {
-        text: 'navigator.appVersion',
-        correct: false,
-      },
-      {
-        text: 'None of the above',
-        correct: false,
       },
     ],
   },

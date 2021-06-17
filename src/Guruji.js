@@ -31,7 +31,10 @@ const Guruji = ({
 
   useEffect(() => {
     console.log(questionNumber)
-    if (questionNumber < 2) {
+    if (questionNumber === 17) {
+      setTimer(true)
+      FunAnsTimer.stop()
+    } else if (questionNumber < 2) {
       setQuestion(data[questionNumber - 1])
     } else {
       setTimeout(() => {
